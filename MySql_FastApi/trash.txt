@@ -1,0 +1,33 @@
+# import mysql.connector
+# from decouple import config
+
+# MYSQL_HOST= config("MYSQL_HOST")
+# MYSQL_DB= config("MYSQL_DB")
+# MYSQL_USER= config("MYSQL_USER")
+# MYSQL_PORT= config("MYSQL_PORT")
+# MYSQL_PASSWORD= config("MYSQL_PASSWORD")
+
+# mydb = mysql.connector.connect(
+#   host=MYSQL_HOST,
+#   user=MYSQL_USER,
+#   password=MYSQL_PASSWORD,
+#   database=MYSQL_DB
+# )
+
+# mycursor = mydb.cursor()
+# sql = "SELECT * FROM item;"
+# mycursor.execute(sql)
+
+# myresult = mycursor.fetchall()
+
+# for x in myresult:
+#   print(x)
+
+# sql = "SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'item'"
+# val = ("John", 2)
+# mycursor.execute(sql, val)
+
+# mydb.commit()
+# print(mycursor.rowcount, "record inserted.")
+# # for x in mycursor:
+# #   print(x)
