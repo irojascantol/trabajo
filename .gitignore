@@ -1,0 +1,5 @@
+FastApi/__pycache__
+FastApi/routers/__pycache__
+JWT_FastApi/__pycache__
+JWT_FastApi/app/__pycache__
+JWT_FastApi/app/auth/__pycache__
